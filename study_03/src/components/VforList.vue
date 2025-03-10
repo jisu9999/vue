@@ -114,7 +114,7 @@ const todos = ref([
     <ul>
       <!-- div태그를 사용해 반복되는 리스트 출력 -->
       <div v-for="item in items" :key="item.message">
-      {{ item.message }}
+        {{ item.message }}
       </div>
     </ul>
   </div>
