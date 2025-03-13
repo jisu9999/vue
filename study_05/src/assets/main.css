@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+body{
+    padding: 5%;
+    max-width: 1200px;
+}
+button{
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: pink;
+}
+button:hover{
+    background-color: rgb(221, 91, 112);
+    color: #fff;
+}
